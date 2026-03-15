@@ -24,6 +24,7 @@ func writeToFile(filename, content string) {
 }
 
 func main() {
+	//test
 	hash := hashPassword(adminPassword)
 	fmt.Println("Hash:", hash)
 	writeToFile("/tmp/output.txt", "hello")
