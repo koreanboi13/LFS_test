@@ -1,0 +1,14 @@
+repos:
+  - repo: local
+    hooks:
+      - id: ci-lint
+        name: CI Lint
+        entry: ci lint
+        language: system
+        pass_filenames: false
+        always_run: true
+      - id: go-mod-verify
+        name: Go Mod Verify
+        entry: go mod verify
+        language: system
+        pass_filenames: false

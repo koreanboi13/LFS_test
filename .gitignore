@@ -1,0 +1,15 @@
+# Go
+*.exe
+*.test
+*.out
+/vendor/
+/dist/
+
+# CI logs
+/ci-logs/
+coverage.out
+
+# IDE
+.idea/
+.vscode/
+*.swp
